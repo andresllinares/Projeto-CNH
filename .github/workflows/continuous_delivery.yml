@@ -1,6 +1,6 @@
 on:
   push:
-    branches: "main"
+    branches: "master"
 
 env:
   IMAGE_NAME: projeto-cnh  # Ajustado para o nome correto da imagem
