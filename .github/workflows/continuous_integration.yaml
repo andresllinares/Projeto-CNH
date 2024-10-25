@@ -20,4 +20,4 @@ jobs:
               java-version: '17' 
               
         -   name: Unit tests
-            run: mvn test 
+            run: mvn test
