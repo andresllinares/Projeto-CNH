@@ -20,7 +20,7 @@ public class CadastroUsuarioSteps {
 
     @When("o usuário clica no botão {string}")
     public void usuarioClicaBotao(String botao) {
-        // Aqui você simula a ação de clicar no botão e executar a lógica de cadastro.
+        // Aqui simula a ação de clicar no botão e executar a lógica de cadastro.
         if (botao.equals("Cadastrar")) {
             if (nome != null && !nome.isEmpty() && email != null && !email.isEmpty()) {
                 mensagem = "Cadastro realizado com sucesso";

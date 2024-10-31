@@ -5,6 +5,10 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/features", plugin = {"pretty"})
+@CucumberOptions(
+        features = "src/test/resources/features",
+        glue = "com.fiap.juarez.cnh", // Ensure this matches your package structure
+        plugin = {"pretty"}
+)
 public class CucumberTest {
 }
