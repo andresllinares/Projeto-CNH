@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "usuarioId",
+    "email"
+  ],
+  "properties": {
+    "usuarioId": {
+      "type": "integer",
+      "examples": [99],
+      "default": 0
+    },
+    "email": {
+      "type": "string",
+      "examples": ["emaildoido99@gamil.com"],
+      "pattern": "^.*$"
+    }
+  }
+}

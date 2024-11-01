@@ -1,0 +1,32 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1730418021.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "usuarioId",
+    "email"
+  ],
+  "properties": {
+    "usuarioId": {
+      "$id": "#root/usuarioId",
+      "title": "Usuarioid",
+      "type": "integer",
+      "examples": [
+        99
+      ],
+      "default": 0
+    },
+    "email": {
+      "$id": "#root/email",
+      "title": "Email",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "emaildoido99@gamil.com"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}
